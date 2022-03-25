@@ -1,0 +1,54 @@
+.btn:not(.btn-sm) {
+  height: 50px;
+  padding: .375rem 1.25rem;
+}
+
+a.btn {
+  line-height: 2;
+}
+
+.btn-achat-rapide { 
+  color: #FFFFFF; 
+  background-color: $color3; 
+  border-color: $color3; 
+} 
+ 
+.btn-achat-rapide:hover, 
+.btn-achat-rapide:focus, 
+.btn-achat-rapide:active, 
+.btn-achat-rapide.active, 
+.open .dropdown-toggle.btn-achat-rapide { 
+  color: #FFFFFF; 
+  background-color: darken($color3, 10%); 
+  border-color: $color3; 
+} 
+ 
+.btn-achat-rapide:active, 
+.btn-achat-rapide.active, 
+.open .dropdown-toggle.btn-achat-rapide { 
+  background-image: none; 
+} 
+ 
+.btn-achat-rapide.disabled, 
+.btn-achat-rapide[disabled], 
+fieldset[disabled] .btn-achat-rapide, 
+.btn-achat-rapide.disabled:hover, 
+.btn-achat-rapide[disabled]:hover, 
+fieldset[disabled] .btn-achat-rapide:hover, 
+.btn-achat-rapide.disabled:focus, 
+.btn-achat-rapide[disabled]:focus, 
+fieldset[disabled] .btn-achat-rapide:focus, 
+.btn-achat-rapide.disabled:active, 
+.btn-achat-rapide[disabled]:active, 
+fieldset[disabled] .btn-achat-rapide:active, 
+.btn-achat-rapide.disabled.active, 
+.btn-achat-rapide[disabled].active, 
+fieldset[disabled] .btn-achat-rapide.active { 
+  background-color: $color3; 
+  border-color: $color3; 
+} 
+ 
+.btn-achat-rapide .badge { 
+  color: $color3; 
+  background-color: #FFFFFF; 
+}
